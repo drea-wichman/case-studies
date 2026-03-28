@@ -117,6 +117,18 @@ Map legal obligations to technical controls and assign owners to each one. GDPR'
 
 ---
 
+## Remediation Roadmap
+
+A step-by-step plan to fix the gaps identified and prevent future attacks.
+
+| Phase | Timeline | Key Actions | Goal |
+| :--- | :--- | :--- | :--- |
+| **Phase 1: Immediate Fixes** | Days 0–30 | • Apply all missing security patches immediately.<br>• Identify and isolate any computers running old/legacy software.<br>• Separate critical hospital systems from general office networks. | Make sure no known vulnerabilities are left open. |
+| **Phase 2: Process Setup** | Months 1–3 | • Set up an automatic system to install updates so humans don't forget.<br>• Create a clear list of every computer and device in the hospital.<br>• Write a simple "Emergency Plan" so staff know who to call if systems go down. | Move from "hoping" things are safe to "knowing" they are safe. |
+| **Phase 3: Long-Term Safety** | Months 3–12 | • Practice the Emergency Plan regularly with staff.<br>• Regularly check for new security risks and fix them quickly.<br>• Train all staff on how to spot phishing and suspicious emails. | Make safety a daily habit and workplace culture, not just a one-time fix. |
+
+---
+
 ## Lessons Learned
 
 **A patch is only useful if it's applied.**
