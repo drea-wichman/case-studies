@@ -1,25 +1,34 @@
 # My Cybersecurity Journey
 
+## Where I Started
 
-## About Me
-I'm starting my cybersecurity journey from whatever comes before square one...no prior tech experience, just a lot of curiosity about how it all works. I'll be documenting everything I learn here as I work toward landing my first role in the field.
+Started from whatever comes before square one...no prior tech experience,
+just curiosity and a lot of time spent figuring things out.
+Documenting everything here as I build toward a career in cyber security.
 
-## Current Status
-- Passed **CompTIA A+ Core 1 (220-1201)** on February 25, 2026
-- Studying for **CompTIA A+ Core 2 (220-1202)** - target completion March 2026
-- Building technical skills through hands-on home lab work
+## Where I Am Now
 
-## Current Projects
-- **[Home Lab](https://github.com/drea-wichman/IT-homelab)** - Windows Server 2022 domain controller, Active Directory, DNS configuration and troubleshooting
-- **[Personal OpSec Setup](https://github.com/drea-wichman/cybersecurity-journey/blob/main/personal-opsec-setup.md)** - custom domain email with Proton, DKIM/SPF/DMARC configuration, unique aliases per service
-- **Hardware Security** - Nitrokey for MFA
+- Studying for **CompTIA Security+**
+- Studying frameworks US vs. UK
+- Building out case studies and GRC notes
+- Preparing to relocate to London for grad school
 
 ## Completed Milestones
+
+- ✅ CompTIA A+ Core 1 — passed February 2026
+- ✅ CompTIA A+ Core 2 — passed March 2026
 - ✅ Configured Windows Server 2022 as domain controller in homelab
 - ✅ Resolved DNS resolution issues in AD environment
-- ✅ Passed CompTIA A+ Core 1
+- ✅ Accepted: MSc Information and Cyber Security · Royal Holloway, University of London · Fall 2026
 
-## Goals
-- Complete CompTIA A+ certification (Core 2)
-- Expand home lab projects
-- More TryHackMe paths
+## What's In This Repo
+
+- **[Case Studies](https://github.com/drea-wichman/cybersecurity-journey/tree/main/case-studies)** — real-world incident analysis (NHS WannaCry, AGCO ransomware)
+- **[Personal OpSec Setup](https://github.com/drea-wichman/cybersecurity-journey/blob/main/personal-opsec-setup.md)** — custom domain email, DKIM/SPF/DMARC, alias-based privacy
+- **[GRC Notes](https://github.com/drea-wichman/cybersecurity-journey/blob/main/grc-notes.md)** — ongoing notes on frameworks, risk, compliance
+
+## What's Next
+
+- Next case study — TBD
+- More homelab documentation
+- TryHackMe paths
