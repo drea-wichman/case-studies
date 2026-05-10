@@ -51,7 +51,7 @@ AGCO absorbed immediate stock losses of 5.76% on the day of disclosure and commi
 
 **OFAC Sanctions Risk:** Whether AGCO paid the ransom was never disclosed. However, paying ransom to a sanctioned entity is a potential federal violation under OFAC rules. Black Basta has suspected Russian ties and Russia has sanctioned entities on the OFAC list. This put AGCO in a difficult position: pay and risk a sanctions violation, or don't pay and extend the disruption.
 
-**US Regulatory Gap:** No US federal law required AGCO to disclose whether they paid a ransom which makes it impossible to track ransom payments, enforce sanctions compliance, or discourage future payments. A law called CIRCIA was passed in 2022 to address this but it only applies to "critical infrastructure" industries like energy and healthcare. Agriculture is not consistently included in that category which leaves ag companies in a regulatory blind spot.
+**US Regulatory Gap:** No US federal law required AGCO to disclose whether they paid a ransom which makes it impossible to track ransom payments, enforce sanctions compliance, or discourage future payments. CIRCIA passed in March 2022, six weeks before this attack, to require ransom payment reporting. Food and Agriculture is one of 16 critical infrastructure sectors covered but CIRCIA only directed CISA to write the rules. Four years later they still aren't in effect: proposed rule came in April 2024 and the final rule has been delayed multiple times. When AGCO was attacked no federal reporting requirement applied and as of early 2026 still nothing does.
 
 ## NIST CSF Mapping
 **Identify — Fail**  
