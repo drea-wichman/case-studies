@@ -9,7 +9,7 @@ Documentation of my career change into cyber security: case studies, GRC notes, 
 - **[GRC Rabbit Hole Notes](https://github.com/drea-wichman/cybersecurity-journey/blob/main/grc-rabbit-hole-notes.md)** - casual notes on surveillance law, computer crime, data protection, governance failures
   
 
-## Featured project
+## Featured Project
 [**Furrow Ltd.**](https://github.com/drea-wichman/furrow) - a fictional UK agritech SaaS company built as an independent GRC portfolio project.  
 Includes risk register, policies, incident response plan, vendor risk assessment, and supporting documentation.
 
