@@ -67,12 +67,12 @@ By the time AGCO knew they were being attacked, it was already over. Black Basta
 This is the one area AGCO handled reasonably well. Once they discovered the attack they moved fast: shutting systems down to stop the spread, going public the next day, notifying affected employees, and working with law enforcement and authorities across multiple countries. Not perfect, but organized.  
 
 **Recover — Partial**  
-Recovery took about two weeks which for most industries might be acceptable. During planting season it was devastating. The length of the recovery also raises questions about whether AGCO had proper backups in place — because a prepared company should not need two weeks to get back online.
+Recovery took about two weeks which for most industries might be acceptable. During planting season it was devastating. The length of the recovery also raises questions about whether AGCO had proper backups in place. A prepared company should not need two weeks to get back online.
 
 ## Recommendations
 Based on the failures identified, the following measures could have reduced the likelihood and impact of this attack:  
 
-**Act on threat intelligence:** When the FBI issues an industry-specific warning it should trigger an immediate internal review. Who received it, did it reach leadership, and what changed as a result? AGCO had two warnings and no visible response. Organizations need a formal process for receiving, escalating, and acting on threat intelligence, not just filing it away.  
+**Act on threat intelligence:** When the FBI issues an industry-specific warning it should trigger an immediate internal review. Who received it, did it reach leadership, and what changed as a result? AGCO had two warnings and no visible response. Organizations need a formal process for receiving, escalating, and acting on threat intelligence not just filing it away.  
 
 **Implement network segmentation:** Manufacturing systems, corporate IT, and regional networks should be isolated from each other. If one segment gets hit, the rest stay up. This is architecture that could have contained the AGCO attack to a fraction of the damage it caused.  
 
@@ -87,13 +87,13 @@ AGCO's response was decent but reactive. A pre-built ransomware playbook includi
 
 ## Lessons Learned
 - Threat intelligence is only useful if you use it.
-The FBI warned the agricultural sector twice. AGCO got hit anyway. Receiving a warning and responding to a warning are two completely different things. Organizations need processes that turn intelligence into action not just awareness.
+The FBI warned the agricultural sector twice. AGCO got hit anyway. Receiving a warning and responding to a warning are two completely different things. Organizations need processes go beyond awareness and turn intelligence into action.
 -  Timing is a weapon.
 Black Basta didn't hit AGCO in January. They hit during planting season when the pressure to restore operations was highest and the willingness to pay was greatest. Attackers understand operational calendars. Organizations in seasonal industries need to treat their most critical windows as elevated threat periods with additional controls in place.
 - Geography creates compliance complexity.
 The same ransomware attack triggered completely different legal obligations depending on which country's systems were hit first. Organizations with global operations need to understand their regulatory situation across every jurisdiction they operate in, not just their home country.
 - Double extortion changes the calculus.
-Backups alone are no longer enough. Black Basta didn't just encrypt, they stole. Even if AGCO could restore everything from backups, the stolen employee data was already gone. Organizations need data loss prevention controls, not just recovery controls.
+Backups alone are no longer enough. Black Basta didn't just encrypt, they stole. Even if AGCO could restore everything from backups, the stolen employee data was already gone. Organizations need data loss prevention controls in addition too recovery controls.
 - The ransom decision is never simple.
 Pay and risk a sanctions violation. Don't pay and face prolonged downtime and public data exposure. There is no clean option once ransomware is active. The only real answer is prevention.
 
