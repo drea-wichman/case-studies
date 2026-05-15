@@ -10,20 +10,20 @@ On May 5, 2022, AGCO discovered a ransomware attack through its Massey Ferguson 
 The attack occurred during spring planting season, one of two narrow windows in the agricultural calendar where farmers plant crops. Disruption during this window has irreversible consequences as unplanted fields cannot be planted later in the season. This directly impacts harvest yields, farm income, and food supply chains.
 
 ## Timeline
-- **September 2021** — FBI issues first warning about ransomware targeting agricultural companies during harvest season. Six grain companies attacked between September 15 and October 6, 2021.
-- **April 20, 2022** — FBI issues warning that ransomware groups are targeting the US agricultural companies with attacks potentially timed to critical seasons.
-- **May 4, 2022** — AGCO Foundation donates $50,000 to the BORSCH Initiative supporting Ukrainian farming communities affected by the Russia-Ukraine war.
-- **May 5, 2022** — AGCO discovers ransomware attack through its Massey Ferguson sector. Facilities in France, Germany and China affected. Over 1,000 employees sent home from French production facilities.
-- **May 6, 2022** — AGCO publicly discloses the attack. Stock drops 5.76%. Company states operations expected to be affected for "several days and potentially longer."
-- **May 16, 2022** — AGCO reports majority of production sites have resumed operations. Confirms data exfiltration occurred, including employee data but no customer data.
-- **May 25, 2022** — Black Basta ransomware group claims responsibility on their site and publishes sample of AGCO's exfiltrated employee data.
+- **September 2021** - FBI issues first warning about ransomware targeting agricultural companies during harvest season. Six grain companies attacked between September 15 and October 6, 2021.
+- **April 20, 2022** - FBI issues warning that ransomware groups are targeting the US agricultural companies with attacks potentially timed to critical seasons.
+- **May 4, 2022** - AGCO Foundation donates $50,000 to the BORSCH Initiative supporting Ukrainian farming communities affected by the Russia-Ukraine war.
+- **May 5, 2022** - AGCO discovers ransomware attack through its Massey Ferguson sector. Facilities in France, Germany and China affected. Over 1,000 employees sent home from French production facilities.
+- **May 6, 2022** - AGCO publicly discloses the attack. Stock drops 5.76%. Company states operations expected to be affected for "several days and potentially longer."
+- **May 16, 2022** - AGCO reports majority of production sites have resumed operations. Confirms data exfiltration occurred, including employee data but no customer data.
+- **May 25, 2022** - Black Basta ransomware group claims responsibility on their site and publishes sample of AGCO's exfiltrated employee data.
   
 ## Threat Actor
 **Group:** Black Basta  
 **Type:** RaaS  
-**Origin:** Suspected Russia-linked  
-**Method:** Ransomware (double extortion) — encrypted AGCO systems and exfiltrated data, threatening to publish if ransom unpaid  
-**Claimed Responsibility:** Yes — posted sample of exfiltrated employee data on leak site May 25, 2022, corroborated by AGCO 
+**Origin:** Suspected Russia linked  
+**Method:** Ransomware (double extortion). Encrypted AGCO systems and exfiltrated data, threatening to publish if ransom unpaid  
+**Claimed Responsibility:** Yes. posted sample of exfiltrated employee data on leak site May 25, 2022, corroborated by AGCO 
 confirming data exfiltration  
 **Notable:** Group emerged April 2022 and quickly became one of the most active ransomware groups in the world hitting hundreds of organizations globally. Suspected ties to the now inactive Conti ransomware group. At time of attack no known decryption tool existed so victims could only recover data via backups or ransom payment.
 
