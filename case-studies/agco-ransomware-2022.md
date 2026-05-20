@@ -4,6 +4,8 @@
 
 ---
 
+Note: This analysis applies NIST CSF 1.1, the version in effect at the time of the attack.
+
 ## Overview
 AGCO Corporation is a global agricultural machinery and parts manufacturer founded in 1990 and headquartered in Duluth, Georgia. Operating across North America, Europe, and Asia under brands including Massey Ferguson, Fendt, and Challenger, AGCO serves farmers and dealers worldwide.
 On May 5, 2022, AGCO discovered a ransomware attack through its Massey Ferguson sector with initial entry points identified in facilities across France, Germany, and China. The attack rapidly disrupted operations globally. The day prior, the AGCO Foundation had donated $50,000 to the BORSCH initiative supporting Ukrainian farming communities affected by the Russia-Ukraine war. Two weeks before the attack, the FBI had issued a warning that ransomware groups were targeting the US agricultural sector, with attacks potentially timed to critical seasons.
