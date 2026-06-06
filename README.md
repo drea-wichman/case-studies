@@ -6,9 +6,9 @@ Case studies are point-in-time analyses, applying the frameworks and regulations
 
 ## Published
 
-- [NHS WannaCry Ransomware (2017)](nhs-wannacry-ransomware-2017.md) — mapped to NIST CSF
-- [AGCO Ransomware (2022)](agco-ransomware-2022.md) — mapped to NIST CSF
+- [NHS WannaCry Ransomware (2017)](nhs-wannacry-ransomware-2017.md) - mapped to NIST CSF
+- [AGCO Ransomware (2022)](agco-ransomware-2022.md) - mapped to NIST CSF
 
 ## Related
 
-[Fenn Agritech](https://fenn.wichman.io) — a fictional UK B2B agritech SaaS company built as a hands-on GRC portfolio project. Includes policies, incident response, vendor assessments, and operational docs.
+[Fenn Agritech](https://fenn.wichman.io) - a fictional UK B2B agritech SaaS company built as a hands-on GRC portfolio project. Includes policies, incident response, vendor assessments, and operational docs.
