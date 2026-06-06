@@ -1,22 +1,14 @@
-# My Cybersecurity Journey
+# Case Studies
 
-Documentation of my career change into cyber security: case studies, GRC notes, and personal projects across US and UK regulatory landscapes.
+Incident analysis applying governance, risk, and compliance frameworks to real-world cyber security events.
 
+Case studies are point-in-time analyses, applying the frameworks and regulations in effect at the time of each incident. They are not updated as standards change.
 
-## What's In This Repo
-- **[Case Studies](https://github.com/drea-wichman/cybersecurity-journey/tree/main/case-studies)** - incident analysis (NHS WannaCry, AGCO ransomware)
-- **[Personal OpSec Setup](https://github.com/drea-wichman/cybersecurity-journey/blob/main/personal-opsec-setup.md)** - custom domain email, DKIM/SPF/DMARC, alias-based privacy
+## Published
 
+- [NHS WannaCry Ransomware (2017)](nhs-wannacry-ransomware-2017.md) — mapped to NIST CSF
+- [AGCO Ransomware (2022)](agco-ransomware-2022.md) — mapped to NIST CSF
 
-*Case studies are point-in-time analyses, applying the frameworks and regulations in effect at the time of each incident. They are not updated as standards change.*
+## Related
 
-
-## Featured Project
-[**Fenn Agritech**](https://github.com/drea-wichman/fenn) - a fictional UK B2B agritech SaaS company built as an independent GRC portfolio project.  
-Includes policies, risk register, incident response, vendor assessments, and operational docs.
-
-## What's Next
-- Capita ICO fine case study
-- UK Cyber Security and Resilience Bill explainer
-- FISA 702 reauthorization and EU-US data transfer implications
-- From farm to GRC (career change reflection)
+[Fenn Agritech](https://fenn.wichman.io) — a fictional UK B2B agritech SaaS company built as a hands-on GRC portfolio project. Includes policies, incident response, vendor assessments, and operational docs.
