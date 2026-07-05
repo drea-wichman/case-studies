@@ -1,4 +1,5 @@
 # AGCO Ransomware Attack (2022)
+**Case:** CS-002
 **Type:** GRC Case Study | NIST CSF Analysis  
 **Date:** March 13, 2026  
 
