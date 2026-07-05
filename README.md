@@ -6,8 +6,8 @@ Case studies are point-in-time analyses, applying the frameworks and regulations
 
 ## Published
 
-- [NHS WannaCry Ransomware (2017)](nhs-wannacry-ransomware-2017.md) - mapped to ISO 27001
-- [AGCO Ransomware (2022)](agco-ransomware-2022.md) - mapped to NIST CSF
+- [NHS WannaCry Ransomware (2017)](nhs-wannacry-ransomware-2017.md) - CS-001 - mapped to ISO 27001
+- [AGCO Ransomware (2022)](agco-ransomware-2022.md) - CS-002 - mapped to NIST CSF
 
 ## Related
 
