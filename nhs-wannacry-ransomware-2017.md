@@ -3,6 +3,7 @@
 > [!NOTE]
 > **Updated April 23, 2026:** Revised to sharpen accountability analysis, refine framing around attack targeting, clarify the kill switch mechanism, and add post 2017 context on NHS cyber incidents.
 
+**Case:** CS-001  
 **Type:** GRC Case Study | ISO 27001 Analysis  
 **Date:** March 27, 2026 | **Revised:** April 23, 2026
 
