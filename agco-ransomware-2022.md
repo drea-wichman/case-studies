@@ -5,6 +5,8 @@
 
 ---
 
+> *This is an independent educational case study based on publicly available incident reports and investigations. It is not an official audit or compliance assessment.*
+
 Note: This analysis applies NIST CSF 1.1, the version in effect at the time of the attack.
 
 ## Overview
