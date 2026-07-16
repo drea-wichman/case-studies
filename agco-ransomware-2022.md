@@ -9,13 +9,13 @@ Note: This analysis applies NIST CSF 1.1, the version in effect at the time of t
 
 ## Overview
 AGCO Corporation is a global agricultural machinery and parts manufacturer founded in 1990 and headquartered in Duluth, Georgia. Operating across North America, Europe, and Asia under brands including Massey Ferguson, Fendt, and Challenger, AGCO serves farmers and dealers worldwide.
-On May 5, 2022, AGCO discovered a ransomware attack through its Massey Ferguson sector with initial entry points identified in facilities across France, Germany, and China. The attack rapidly disrupted operations globally. The day prior, the AGCO Foundation had donated $50,000 to the BORSCH initiative supporting Ukrainian farming communities affected by the Russia-Ukraine war. Two weeks before the attack, the FBI had issued a warning that ransomware groups were targeting the US agricultural sector, with attacks potentially timed to critical seasons.
+On May 5, 2022, AGCO discovered a ransomware attack through its Massey Ferguson sector with initial entry points identified in facilities across France, Germany, and China. The attack rapidly disrupted operations globally. The day prior, the AGCO Foundation had donated $50,000 to the BORSCH initiative supporting Ukrainian farming communities affected by the Russia-Ukraine war. No connection between the donation and the attack has been established. Two weeks before the attack, the FBI had issued a warning that ransomware groups were targeting the US agricultural sector, with attacks potentially timed to critical seasons.
 The attack occurred during spring planting season, one of two narrow windows in the agricultural calendar where farmers plant crops. Disruption during this window has irreversible consequences as unplanted fields cannot be planted later in the season. This directly impacts harvest yields, farm income, and food supply chains.
 
 ## Timeline
 - **September 2021** - FBI issues first warning about ransomware targeting agricultural companies during harvest season. Six grain companies attacked between September 15 and October 6, 2021.
 - **April 20, 2022** - FBI issues warning that ransomware groups are targeting the US agricultural companies with attacks potentially timed to critical seasons.
-- **May 4, 2022** - AGCO Foundation donates $50,000 to the BORSCH Initiative supporting Ukrainian farming communities affected by the Russia-Ukraine war.
+- **May 4, 2022** - AGCO Foundation donates $50,000 to the BORSCH Initiative supporting Ukrainian farming communities affected by the Russia-Ukraine war. Whether the donation and the attack that followed were connected has never been established.
 - **May 5, 2022** - AGCO discovers ransomware attack through its Massey Ferguson sector. Facilities in France, Germany and China affected. Over 1,000 employees sent home from French production facilities.
 - **May 6, 2022** - AGCO publicly discloses the attack. Stock drops 5.76%. Company states operations expected to be affected for "several days and potentially longer."
 - **May 16, 2022** - AGCO reports majority of production sites have resumed operations. Confirms data exfiltration occurred, including employee data but no customer data.
@@ -33,7 +33,7 @@ confirming data exfiltration
 ## Operational Impact
 When AGCO's systems were encrypted, the disruption spread across every layer of the organization simultaneously. Corporate and admin communications, factory floor manufacturing software, dealer ordering portals, and customer facing websites all went offline. Over 1,000 employees were sent home from production facilities in France alone. Facilities in Germany, China, and others were similarly affected. Backlogs were already significant (typical for planting season) when AGCO's 1000+ North American dealerships lost the ability to place orders.
 The timing of the attack compounded the damage. Planting season is one of two narrow windows in the agricultural calendar where farmers must act. Unlike most industries where lost production time can be recovered, nature does not offer a second chance. Fields not planted in May cannot be planted in July. The consequences are permanent for that season: no crop in the ground in spring means no harvest in the fall, no farm revenue, and of course no product available for sale or consumption.
-Farmers who needed brand new equipment or replacement parts for already acquired equipment during this window had no way to get them and no service support. Seedsuppliers faced reduced demand as farmers had no reason to buy seed with no equipment. Downstream, food processors, traders, and consumers were affected by this supply chain disruption.
+Farmers who needed brand new equipment or replacement parts for already acquired equipment during this window had no way to get them and no service support. Seed suppliers faced reduced demand as farmers had no reason to buy seed with no equipment. Downstream, food processors, traders, and consumers were affected by this supply chain disruption.
 AGCO absorbed immediate stock losses of 5.76% on the day of disclosure and committed to increase production for the remainder of 2022 to make up what was lost. The company arranged identity protection services for all employees whose personal data was stolen. An investor investigation was launched by a law firm shortly after. AGCO's Q1 2022 net sales up to the attack had been approximately $2.7 billion. At that revenue scale, every day of production downtime is a significant financial loss.
 
 ## Control Failures & Risk Gaps
@@ -90,22 +90,23 @@ AGCO's response was decent but reactive. A pre-built ransomware playbook includi
 
 ## Lessons Learned
 - Threat intelligence is only useful if you use it.
-The FBI warned the agricultural sector twice. AGCO got hit anyway. Receiving a warning and responding to a warning are two completely different things. Organizations need processes go beyond awareness and turn intelligence into action.
+The FBI warned the agricultural sector twice. AGCO got hit anyway. Receiving a warning and responding to a warning are two completely different things. Organizations need processes that go beyond awareness and turn intelligence into action.
 -  Timing is a weapon.
 Black Basta didn't hit AGCO in January. They hit during planting season when the pressure to restore operations was highest and the willingness to pay was greatest. Attackers understand operational calendars. Organizations in seasonal industries need to treat their most critical windows as elevated threat periods with additional controls in place.
 - Geography creates compliance complexity.
 The same ransomware attack triggered completely different legal obligations depending on which country's systems were hit first. Organizations with global operations need to understand their regulatory situation across every jurisdiction they operate in, not just their home country.
 - Double extortion changes the calculus.
-Backups alone are no longer enough. Black Basta didn't just encrypt, they stole. Even if AGCO could restore everything from backups, the stolen employee data was already gone. Organizations need data loss prevention controls in addition too recovery controls.
+Backups alone are no longer enough. Black Basta didn't just encrypt, they stole. Even if AGCO could restore everything from backups, the stolen employee data was already gone. Organizations need data loss prevention controls in addition to recovery controls.
 - The ransom decision is never simple.
 Pay and risk a sanctions violation. Don't pay and face prolonged downtime and public data exposure. There is no clean option once ransomware is active. The only real answer is prevention.
 
 ## Sources
-BleepingComputer — FBI Warns Agricultural Sector  
-AGCO Corporation Press Release, May 5 & 16, 2022  
-FBI Private Industry Notification, April 20, 2022  
-Bank Info Security — Black Basta Claims Responsibility  
-MSSP Alert — AGCO Ransomware Timeline  
-TorchStone Global — Cyber Threats Part 4  
-Farm Equipment Magazine — Law Firm Investigates AGCO  
-US Treasury OFAC Guidance on Ransomware Payments
+- [FBI Private Industry Notification 20220420-001 — Ransomware Attacks on Agricultural Cooperatives Potentially Timed to Critical Seasons](https://www.ic3.gov/CSA/2022/220420-2.pdf), April 20, 2022
+- [AGCO — AGCO Announces Ransomware Attack](https://news.agcocorp.com/2022-05-06-AGCO-Announces-Ransomware-Attack), May 6, 2022
+- [AGCO — AGCO Provides Update on Recovery from Ransomware Cyber Attack](https://news.agcocorp.com/2022-05-16-AGCO-Provides-Update-on-Recovery-from-Ransomware-Cyber-Attack), May 16, 2022
+- [US Treasury OFAC — Updated Advisory on Potential Sanctions Risks for Facilitating Ransomware Payments](https://ofac.treasury.gov/media/912981/download?inline=), September 21, 2021
+- [BleepingComputer — FBI warns of ransomware attacks targeting US agriculture sector](https://www.bleepingcomputer.com/news/security/fbi-warns-of-ransomware-attacks-targeting-us-agriculture-sector/), April 20, 2022
+- [Bank Info Security — Black Basta Claims Responsibility for AGCO Attack](https://www.bankinfosecurity.com/black-basta-claims-responsibility-for-agco-attack-a-19146), May 2022
+- [MSSP Alert — AGCO Ransomware Cyberattack Timeline: Details and Recovery Updates](https://www.msspalert.com/news/agco-ransomware-cyberattack-timeline-details-and-recovery-updates), 2022
+- [Farm Equipment — Law Firm Investigates AGCO Following Ransomware Attack](https://www.farm-equipment.com/articles/20405-law-firm-investigates-agco-following-ransomware-attack), May 23, 2022
+- [TorchStone Global — Cyber Threats Part 4: Ransomware Attacks](https://www.torchstoneglobal.com/cyber-threats-part-4-ransomware-attacks/), 2022
