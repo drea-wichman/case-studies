@@ -6,8 +6,9 @@ Case studies are point-in-time analyses, applying the frameworks and regulations
 
 ## Published
 
-- [NHS WannaCry Ransomware (2017)](nhs-wannacry-ransomware-2017.md) - CS-001 - mapped to ISO 27001
-- [AGCO Ransomware (2022)](agco-ransomware-2022.md) - CS-002 - mapped to NIST CSF
+- [NHS WannaCry Attack (2017)](nhs-wannacry-ransomware-2017.md) - CS-001 - mapped to ISO 27001
+- [AGCO Ransomware Attack (2022)](agco-ransomware-2022.md) - CS-002 - mapped to NIST CSF
+- [Salesloft-Drift Supply Chain Breach (2025)](salesloft-drift-supply-chain-2025.md) - CS-003 - mapped to NCSC Supply Chain Principles
 
 ## Related
 
