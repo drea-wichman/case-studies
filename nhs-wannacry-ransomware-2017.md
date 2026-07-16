@@ -52,7 +52,7 @@ The NHS was not the intended target, it was the most exposed large institution i
 
 ## Operational Impact
 
-At least 81 of 236 NHS trusts in England were affected, 34 directly infected and the rest disrupted through preventative shutdowns or shared systems with infected organizations. Eight percent of GP surgeries were also impacted.
+At least 81 of 236 NHS trusts in England were affected. NHS England initially identified 37 trusts as infected, later revised to 34 after three were recategorized as disrupted but not infected; the remaining trusts were disrupted through preventative shutdowns or shared systems with infected organizations. Eight percent of GP surgeries were also impacted.
 
 Hospitals were locked out of their computers, patient records, and diagnostic equipment at the same time. MRI scanners, blood storage refrigerators, and theatre equipment were among the devices affected. Staff reverted to pen and paper and used personal mobile phones after internal communications went down. Thousands of critical and elective procedures were cancelled, totaling 19,000 appointments in one week. Total cost to the NHS was £92 million, £19 million in lost output during the attack and £73 million in IT recovery costs afterward. No patient deaths were directly attributed to WannaCry in the initial investigation but post-event analysis has raised questions about that claim. The NHS did not pay the ransom.
 
@@ -130,8 +130,8 @@ A step-by-step plan to fix the gaps identified and prevent future attacks.
 | Phase | Timeline | Key Actions | Goal |
 | :--- | :--- | :--- | :--- |
 | **Phase 1: Immediate Fixes** | Days 0–30 | • Apply all missing security patches immediately.<br>• Identify and isolate any computers running old/legacy software.<br>• Separate critical hospital systems from general office networks. | Make sure no known vulnerabilities are left open. |
-| **Phase 2: Process Setup** | Months 1–3 | • Set up an automatic system to install updates so humans don't forget.<br>• Create a clear list of every computer and device in the hospital.<br>• Write a simple "Emergency Plan" so staff know who to call if systems go down. | Move from "hoping" things are safe to "knowing" they are safe. |
-| **Phase 3: Long-Term Safety** | Months 3–12 | • Practice the Emergency Plan regularly with staff.<br>• Regularly check for new security risks and fix them quickly.<br>• Train all staff on how to spot phishing and suspicious emails. | Make safety a daily habit and workplace culture, not just a one-time fix. |
+| **Phase 2: Process Setup** | Months 1–3 | • Set up an automatic system to install updates so humans don't forget.<br>• Create a clear list of every computer and device in the hospital.<br>• Write a simple "Emergency Plan" so staff know who to call if systems go down. | Replace assumed compliance with verified compliance. |
+| **Phase 3: Long-Term Safety** | Months 3–12 | • Practice the incident response plan at least annually with staff.<br>• Regularly check for new security risks and fix them quickly.<br>• Train all staff on how to spot phishing and suspicious emails. | Make safety a daily habit and workplace culture, not just a one-time fix. |
 
 ---
 
@@ -170,19 +170,15 @@ Seven years after WannaCry the pattern still holds: inadequate third-party secur
 ---
 
 ## Sources
-
-- National Audit Office — Investigation: WannaCry Cyber Attack and the NHS, October 2017
-- Department of Health and Social Care — Cyber Attack Cost Report
-- Wikipedia — WannaCry Ransomware Attack
-- Cloudflare — What was the WannaCry Ransomware Attack?
-- National Health Executive — WannaCry Cyber Attack Cost the NHS £92m
-- npj Digital Medicine — A Retrospective Impact Analysis of the WannaCry Cyberattack on the NHS
-- Acronis — The NHS Cyber Attack: How and Why it Happened
-- CybCube — Five years of WannaCry: what has changed in ransomware since 2017?, 2022
-- Computer Weekly — Advanced faces fine over LockBit attack that crippled NHS 111, August 2024
-- HIPAA Journal — Patient Death Linked to Ransomware Attack on Pathology Services Provider, June 2025
-- UK Parliament written statement on Synnovis, November 2025
-- Bloomberg — BlackCat Hacking Gang Says It Stole Data from UK's Barts Health NHS Trust, June 2023
+- [National Audit Office — Investigation: WannaCry cyber attack and the NHS](https://www.nao.org.uk/wp-content/uploads/2017/10/Investigation-WannaCry-cyber-attack-and-the-NHS.pdf), October 27, 2017
+- [Department of Health and Social Care — Securing cyber resilience in health and care: progress update](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/747464/securing-cyber-resilience-in-health-and-care-september-2018-update.pdf), October 2018
+- [NHS England — Lessons learned review of the WannaCry ransomware cyber attack (CIO review)](https://www.england.nhs.uk/wp-content/uploads/2018/02/lessons-learned-review-wannacry-ransomware-cyber-attack-cio-review.pdf), February 2018
+- [Ghafur et al. — A retrospective impact analysis of the WannaCry cyberattack on the NHS, npj Digital Medicine](https://www.nature.com/articles/s41746-019-0161-6), October 2019
+- [National Health Executive — WannaCry cyber attack cost the NHS £92m after 19,000 appointments were cancelled](https://www.nationalhealthexecutive.com/articles/wannacry-cyber-attack-cost-nhs-ps92m-after-19000-appointments-were-cancelled), October 2018
+- [Computer Weekly — Advanced Software fined £3m over LockBit attack](https://www.computerweekly.com/news/366621298/Advanced-Software-fined-3m-over-LockBit-attack), March 2025
+- [Bloomberg — BlackCat Hacking Gang Says It Stole Data from UK's Barts Health NHS Trust](https://www.bloomberg.com/news/articles/2023-06-30/hacking-gang-says-it-stole-data-trove-from-uk-hospital-group), June 30, 2023
+- [HIPAA Journal — Patient Death Linked to Ransomware Attack on Pathology Services Provider](https://www.hipaajournal.com/patient-death-linked-to-ransomware-attack/), June 2025
+- [UK Parliament — Written statement HCWS1046 (Synnovis and cyber resilience)](https://questions-statements.parliament.uk/written-statements/detail/2025-11-12/hcws1046), November 12, 2025
 
 ---
 *Analysis based on publicly available post-incident reports including the National Audit Office investigation (October 2017) and the Department of Health and Social Care cost report. This is an independent educational assessment, not an official audit or legal determination.*
