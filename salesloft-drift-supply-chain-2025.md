@@ -1,5 +1,5 @@
 # Salesloft-Drift Supply Chain Breach (2025)
-**Case:** CS-003  
+**Case:** Study 03  
 **Type:** GRC Case Study | NCSC Supply Chain Principles Analysis  
 **Date:** July 16, 2026
 
